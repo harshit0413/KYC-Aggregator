@@ -41,7 +41,6 @@ The **KYC Aggregator Service** is a Spring Boot-based application designed to ve
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd KYCVerificationProject
 ```
 
 ### 2. Configure the Database
