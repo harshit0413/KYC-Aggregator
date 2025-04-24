@@ -46,7 +46,7 @@ git clone <repository-url>
 ### 2. Configure the Database
 Update the database credentials in the `src/main/resources/application.properties` file:
 ```ini
-spring.datasource.url=jdbc:mysql://localhost:3306/ClientOnboardingDb
+spring.datasource.url=jdbc:mysql://localhost:3306/KYCAggregatorDb
 spring.datasource.username=<your-username>
 spring.datasource.password=<your-password>
 ```
@@ -63,9 +63,9 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-By default, the application runs on port `8083`. You can change it in the `application.properties`:
+By default, the application runs on port `8081`. You can change it in the `application.properties`:
 ```ini
-server.port=8083
+server.port=8081
 ```
 
 ---
@@ -74,7 +74,7 @@ server.port=8083
 
 ### Base URL
 ```
-http://localhost:8083/kyc
+http://localhost:8081/kyc
 ```
 
 ### 1. Verify PAN
@@ -191,7 +191,6 @@ mvn test
 This project is licensed under the MIT License.
 
 ---
-
 ## Contact
-For any queries or issues, please contact the development team.
+For any queries or issues, feel free to reach out to me.
 ```
